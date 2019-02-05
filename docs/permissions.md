@@ -9,7 +9,7 @@ When you use Convo middleware of type `freestyle-cloudfunctions` or `openapi-clo
 
 Go to your GCP project's `APIs & Services`, select `Library`, and then search for `Cloud Deployment Manager`. Click on the search result box, and you'll see the Cloud Deployment Manager API page, click on the `Enable` button.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/docs/permission-enable-cloud-deployment-manager-api.png "Cloud Deployment Manager API screen")
+![Cloud Deployment Manager API screen](https://github.com/cliffano/convo/raw/master/docs/permission-enable-cloud-deployment-manager-api.png "Cloud Deployment Manager API screen")
 
 Without this enabled, you will get the following error:
 
