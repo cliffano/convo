@@ -12,7 +12,7 @@ Architectures
 
 There are three types of Convo application architectures:
 
-1. Static Facts
+### A. Static Facts
 
 Convo Static Facts application consists of only a Dialogflow agent where its knowledge comprises of static facts within the agent itself. 
 
@@ -20,7 +20,7 @@ Convo Static Facts application consists of only a Dialogflow agent where its kno
 
 Have a look at [Convo Thomas](http://github.com/cliffano/convo-thomas) for an example of Convo Static Facts application.
 
-2. Freestyle Back-End
+### B. Freestyle Back-End
 
 Convo Freestyle Back-End application consists of a Dialogflow agent and a Freestyle CloudFunctions middleware where its knowledge is sourced from the business logic implemented within the middleware.
 
@@ -28,7 +28,7 @@ Convo Freestyle Back-End application consists of a Dialogflow agent and a Freest
 
 Have a look at [Convo Hacker News](http://github.com/cliffano/convo-hacker-news) for an example of Convo Freestyle Back-End application, along with [Convo Hacker News Helper](http://github.com/cliffano/convo-hacker-news-helper) which provides the freestyle back-end implementation.
 
-3. OpenAPI Back-End
+### C. OpenAPI Back-End
 
 Convo Freestyle Back-End application consists of a Dialogflow agent and an OpenAPI CloudFunctions middleware where its knowledge is sourced from an external [Open API](https://www.openapis.org/) service.
 
